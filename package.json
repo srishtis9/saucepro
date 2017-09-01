@@ -4,7 +4,7 @@
   "description": "Parallel tests protractor  =============",
   "main": "",
   "scripts": {
-    "test": "./node_modules/.bin/protractor conf.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
   	"protractor": "5.1.0",
