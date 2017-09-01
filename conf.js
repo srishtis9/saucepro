@@ -3,14 +3,14 @@
 // var sauceRestAgent = new HTTPSProxyAgent("http://<proxy>:<port>")
 
 exports.config = {
-    sauceUser: process.env.srishtis9,
-    sauceKey: process.env.9bd6579d-fc25-49bf-a38f-65f959d62f2b,
+    sauceUser: process.env.SAUCE_USERNAME,
+    sauceKey: process.env.SAUCE_ACCESS_KEY,
     // sauceAgent: sauceRestAgent,
 
     // webDriverProxy: 'http://<proxy>:<port>',
 
     //seleniumAddress: 'http://ondemand.saucelabs.com:80/wd/hub',
-    specs: ['specs/*spec.js'],
+    specs: ['spec.js'],
 
     // restartBrowserBetweenTests: true,
 
@@ -43,8 +43,8 @@ exports.config = {
         }
         printSessionId("Insert Job Name Here");
     },
-	jasmineNodeOpts: {
-	   showColors : true ,
-    defaultTimeoutInterval: 1200000
-  }
+	//jasmineNodeOpts: {
+	 //  showColors : true ,
+   // defaultTimeoutInterval: 1200000
+ // }
 }
