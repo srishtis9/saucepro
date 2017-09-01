@@ -3,8 +3,8 @@
 // var sauceRestAgent = new HTTPSProxyAgent("http://<proxy>:<port>")
 
 exports.config = {
-    sauceUser: process.env.SAUCE_USERNAME,
-    sauceKey: process.env.SAUCE_ACCESS_KEY,
+    sauceUser: process.env.srishtis9,
+    sauceKey: process.env.9bd6579d-fc25-49bf-a38f-65f959d62f2b,
     // sauceAgent: sauceRestAgent,
 
     // webDriverProxy: 'http://<proxy>:<port>',
